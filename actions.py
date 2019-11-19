@@ -1,10 +1,14 @@
+from voice import playText
+
 
 def do_action(command):
 
     if command == "test command":
-        print("test command 1")
+        playText("test command")
+    elif command == "exit":
+        playText("exiting now")
+        return False
     else:
         print("command not found")
-        return False
 
     return True

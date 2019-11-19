@@ -1,10 +1,9 @@
 
 from speech import *
-from actions import *
+from actions import do_action
 
 
 def waitForCommands():
-    word = "testing"
     PROMPT_LIMIT = 5
     recognizer = sr.Recognizer()
     microphone = sr.Microphone()
@@ -23,16 +22,17 @@ def waitForCommands():
 
     print("You said: {}".format(guess["transcription"]))
 
-    guess_is_correct = do_action(guess["transcription"].lower())
+    action = do_action(guess["transcription"].lower())
 
-    if guess_is_correct:
-        print("Correct! You win!".format(word))
-    elif guess["transcription"] == "exit".lower():
-        return False
-    else:
-        print("Sorry, you lose!\nI was thinking of '{}'.".format(word))
+    # if guess_is_correct:
+    #     pass
+    # elif guess["transcription"] == "exit".lower():
+    #     return False
+    # else:
+    #     # print("Sorry, you lose!\nI was thinking of '{}'.".format(word))
+    #     pass
 
-    return True
+    return action
 
 
 flag = True
