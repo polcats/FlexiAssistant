@@ -2,13 +2,14 @@
 from speech import *
 from actions import do_action
 
+# A program that can execute command inputs from speech
+
 
 def waitForCommands():
-    PROMPT_LIMIT = 5
     recognizer = sr.Recognizer()
     microphone = sr.Microphone()
 
-    for j in range(PROMPT_LIMIT):
+    while True:
         print("Say something!")
         guess = recognize_speech_from_mic(recognizer, microphone)
         if guess["transcription"]:

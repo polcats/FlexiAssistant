@@ -9,6 +9,6 @@ def do_action(command):
         playText("exiting now")
         return False
     else:
-        print("command not found")
+        playText("command is unknown")
 
     return True
