@@ -24,14 +24,6 @@ def waitForCommands():
 
     action = do_action(guess["transcription"].lower())
 
-    # if guess_is_correct:
-    #     pass
-    # elif guess["transcription"] == "exit".lower():
-    #     return False
-    # else:
-    #     # print("Sorry, you lose!\nI was thinking of '{}'.".format(word))
-    #     pass
-
     return action
 
 
