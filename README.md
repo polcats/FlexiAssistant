@@ -4,7 +4,7 @@
 <p>This project can do the following:</p>
 <ul>
     <li>Recognize speech and convert it to text (command)</li>
-    <li>Do an pre-set action according to the command</li>
+    <li>Do a pre-set action according to the command</li>
     <li>Feedback with speech</li>
 </ul>
 
@@ -15,19 +15,19 @@
 <li>Speaker/Headphones</li>
 </ul>
 
-<h3>Installed Packages</h3>
+<h3>Packages</h3>
 <ul>
-<li><a target="_blank" href="https://pypi.org/project/gTTS/">pip install gTTS</a></li>
-<li><a target="_blank" href="https://pypi.org/project/playsound/">pip install playsound</a></li>
-<li><a target="_blank" href="https://pypi.org/project/SpeechRecognition/">pip install SpeechRecognition</a></li>
-<li><a target="_blank" href="https://pypi.org/project/PyAudio/">pip install PyAudio</a></li>
+<li>pip install <a target="_blank" href="https://pypi.org/project/gTTS/">gTTS</a></li>
+<li>pip install <a target="_blank" href="https://pypi.org/project/playsound/">playsound</a></li>
+<li>pip install <a target="_blank" href="https://pypi.org/project/SpeechRecognition/">SpeechRecognition</a></li>
+<li>pip install <a target="_blank" href="https://pypi.org/project/PyAudio/">PyAudio</a></li>
 </ul>
 
 <h2>Usage</h2>
 <p><em>python main.py</em></p>
 
 <h2>References</h2>
-<p>These were used in putting up the initial working code of this project.</p>
+<p>Helpful references that were used to put up the initial working project.</p>
 
 <ul>
     <li><a target="_blank" href="https://realpython.com/python-speech-recognition/#installing-speechrecognition">The Ultimate Guide To Speech Recognition With Python</a></li>
