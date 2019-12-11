@@ -4,7 +4,7 @@
 <p>This project can do the following:</p>
 <ul>
     <li>Recognize speech and convert it to text (command)</li>
-    <li>Do a pre-set action according to the command</li>
+    <li>Do a pre-programmed action according to the command</li>
     <li>Feedback with speech</li>
 </ul>
 
