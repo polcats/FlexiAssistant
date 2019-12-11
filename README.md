@@ -15,12 +15,12 @@
 <li>Speaker/Headphones</li>
 </ul>
 
-<h3>Packages</h3>
+<h3>Needed Packages</h3>
 <ul>
-<li>pip install <a target="_blank" href="https://pypi.org/project/gTTS/">gTTS</a></li>
-<li>pip install <a target="_blank" href="https://pypi.org/project/playsound/">playsound</a></li>
-<li>pip install <a target="_blank" href="https://pypi.org/project/SpeechRecognition/">SpeechRecognition</a></li>
-<li>pip install <a target="_blank" href="https://pypi.org/project/PyAudio/">PyAudio</a></li>
+<li><a target="_blank" href="https://pypi.org/project/gTTS/">gTTS</a></li>
+<li><a target="_blank" href="https://pypi.org/project/playsound/">playsound</a></li>
+<li><a target="_blank" href="https://pypi.org/project/SpeechRecognition/">SpeechRecognition</a></li>
+<li><a target="_blank" href="https://pypi.org/project/PyAudio/">PyAudio</a></li>
 </ul>
 
 <h2>Usage</h2>
