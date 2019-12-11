@@ -5,7 +5,7 @@
 <ul>
     <li>Recognize speech and convert it to text (command)</li>
     <li>Do a pre-programmed action according to the command</li>
-    <li>Feedback with speech</li>
+    <li>Report success or failure of a command with speech</li>
 </ul>
 
 <h2>Requirements</h2>
